@@ -83,3 +83,34 @@ header ul li a:hover {
     line-height: 1.5em; /* Espaçamento vertical */
     font-weight: 600;
 }
+.conteudo .textoPrincipal h2 span{
+    color: var(--corPrimaria);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.conteudo .textoPrincipal p {
+    color: var(--corSecundaria);
+}
+
+.conteudo .textoPrincipal a {
+   display: inline-block;
+   margin-top: 20px;
+   padding: 8px 20px;
+   background: var(--corPrimaria);
+   color: var(--corTerciaria);
+   border-radius: 40px;
+   font-weight: 500;
+   letter-spacing: 1px;
+    text-decoration: none;
+}
+.conteudo .textoPrincipal a:hover {
+    background: var(--corSecundaria)
+}
+.conteudo .img1 {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+  }
