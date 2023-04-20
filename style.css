@@ -165,6 +165,7 @@ header ul li a:hover {
     width: 100%;
     height: 100%;
     background-color: var(--corPrimaria);
+    clip-path: circle(600px at right 800px);
       /* https://bennettfeely.com/clippy/ */
   /* https://www.w3schools.com/cssref/css3_pr_clip-path.php */
 
@@ -175,7 +176,7 @@ header ul li a:hover {
     header {
       padding: 20px;
     }
-    header.logo {
+    header .logo {
       max-width: 60px; /* Era 80px agora vira 60px(reduz) */
     }
     header ul {
@@ -200,11 +201,11 @@ header ul li a:hover {
       right: 20px;
       background: url(assets/close.png); /* Imagem do X (fechar) */
       background-size: 25px;
-      background-position: center;
+      background-position: 25px;
       background-repeat: no-repeat;
     }
       /* Menu hambuerguer ativado (forma a lista) */
-    header ul.links.ative{
+    header ul.links.active{
       position: fixed;
       top: 0;
       left: 0;
@@ -234,8 +235,8 @@ header ul li a:hover {
       font-size: 2.5em;
       margin-bottom: 15px;
     }
-    .conteudo.textoPrincipal {
-      max-width: 100%;
+    .conteudo .textoPrincipal {
+      max-width: 300px;
     }
     .conteudo .imgBox {
       max-width: 300px;

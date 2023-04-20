@@ -2,11 +2,13 @@
 function imgSlider(anything) {
    document.querySelector('.starbucks').src = anything;
 }
+
 //Fazer esta 3° (Ela troca a cor do círculo)
 function changeCircleColor(color){
-    const circulo =document.querySelector('.circulo');
+    const circulo = document.querySelector('.circulo');
     circulo.style.background = color;
 }
+
 //Fazer esta função 1° (Ela altera o estado Ativo/Desativo)
 function toggleMenu() {
     var menuToogle = document.querySelector(".toggle"); //cria uma variavel e usa o DOM para selecionar a classe (toggle)
